@@ -1,0 +1,351 @@
+{
+  "all": [
+    {
+      "id": 1,
+      "first_name": "Leslie",
+      "last_name": "Warlaw",
+      "email": "lwarlaw0@google.es",
+      "gender": "Non-binary",
+      "ip_address": "162.221.191.9"
+    },
+    {
+      "id": 2,
+      "first_name": "Cornelia",
+      "last_name": "Emmines",
+      "email": "cemmines1@java.com",
+      "gender": "Female",
+      "ip_address": "248.42.65.153"
+    },
+    {
+      "id": 3,
+      "first_name": "Will",
+      "last_name": "Huntriss",
+      "email": "whuntriss2@etsy.com",
+      "gender": "Male",
+      "ip_address": "238.0.7.175"
+    },
+    {
+      "id": 4,
+      "first_name": "Virge",
+      "last_name": "Dimmack",
+      "email": "vdimmack3@bizjournals.com",
+      "gender": "Male",
+      "ip_address": "137.35.24.200"
+    },
+    {
+      "id": 5,
+      "first_name": "Adelbert",
+      "last_name": "Jump",
+      "email": "ajump4@linkedin.com",
+      "gender": "Male",
+      "ip_address": "254.8.193.166"
+    },
+    {
+      "id": 6,
+      "first_name": "Ambros",
+      "last_name": "Casham",
+      "email": "acasham5@psu.edu",
+      "gender": "Male",
+      "ip_address": "98.147.251.106"
+    },
+    {
+      "id": 7,
+      "first_name": "Erroll",
+      "last_name": "Coles",
+      "email": "ecoles6@dion.ne.jp",
+      "gender": "Male",
+      "ip_address": "246.38.225.27"
+    },
+    {
+      "id": 8,
+      "first_name": "Hilarius",
+      "last_name": "Wyldes",
+      "email": "hwyldes7@ehow.com",
+      "gender": "Male",
+      "ip_address": "83.194.42.212"
+    },
+    {
+      "id": 9,
+      "first_name": "Winnah",
+      "last_name": "Carlson",
+      "email": "wcarlson8@godaddy.com",
+      "gender": "Female",
+      "ip_address": "237.156.212.18"
+    },
+    {
+      "id": 10,
+      "first_name": "Merrilee",
+      "last_name": "Goozee",
+      "email": "mgoozee9@vkontakte.ru",
+      "gender": "Genderqueer",
+      "ip_address": "237.114.55.253"
+    },
+    {
+      "id": 11,
+      "first_name": "Emlyn",
+      "last_name": "Rizzardini",
+      "email": "erizzardinia@amazonaws.com",
+      "gender": "Male",
+      "ip_address": "31.236.94.23"
+    },
+    {
+      "id": 12,
+      "first_name": "Tobie",
+      "last_name": "Cluitt",
+      "email": "tcluittb@de.vu",
+      "gender": "Male",
+      "ip_address": "77.249.62.224"
+    },
+    {
+      "id": 13,
+      "first_name": "Nanny",
+      "last_name": "Simeoli",
+      "email": "nsimeolic@princeton.edu",
+      "gender": "Genderqueer",
+      "ip_address": "113.224.160.38"
+    },
+    {
+      "id": 14,
+      "first_name": "Nollie",
+      "last_name": "Wordsley",
+      "email": "nwordsleyd@yandex.ru",
+      "gender": "Female",
+      "ip_address": "244.30.76.18"
+    },
+    {
+      "id": 15,
+      "first_name": "Alexa",
+      "last_name": "Tigner",
+      "email": "atignere@vinaora.com",
+      "gender": "Female",
+      "ip_address": "239.163.171.168"
+    },
+    {
+      "id": 16,
+      "first_name": "Agathe",
+      "last_name": "Genn",
+      "email": "agennf@discuz.net",
+      "gender": "Female",
+      "ip_address": "86.34.78.133"
+    },
+    {
+      "id": 17,
+      "first_name": "Zared",
+      "last_name": "Shakesby",
+      "email": "zshakesbyg@usnews.com",
+      "gender": "Male",
+      "ip_address": "75.105.198.97"
+    },
+    {
+      "id": 18,
+      "first_name": "Austin",
+      "last_name": "Iacovo",
+      "email": "aiacovoh@engadget.com",
+      "gender": "Male",
+      "ip_address": "76.73.41.16"
+    },
+    {
+      "id": 19,
+      "first_name": "Cami",
+      "last_name": "McKinney",
+      "email": "cmckinneyi@sogou.com",
+      "gender": "Female",
+      "ip_address": "238.199.75.194"
+    },
+    {
+      "id": 20,
+      "first_name": "Lammond",
+      "last_name": "Muldoon",
+      "email": "lmuldoonj@nps.gov",
+      "gender": "Male",
+      "ip_address": "114.112.141.169"
+    },
+    {
+      "id": 21,
+      "first_name": "Pauline",
+      "last_name": "Buscombe",
+      "email": "pbuscombek@constantcontact.com",
+      "gender": "Female",
+      "ip_address": "120.175.77.253"
+    },
+    {
+      "id": 22,
+      "first_name": "Revkah",
+      "last_name": "Hebblewhite",
+      "email": "rhebblewhitel@globo.com",
+      "gender": "Female",
+      "ip_address": "74.25.2.202"
+    },
+    {
+      "id": 23,
+      "first_name": "Shawn",
+      "last_name": "Hallowell",
+      "email": "shallowellm@globo.com",
+      "gender": "Male",
+      "ip_address": "206.12.160.169"
+    },
+    {
+      "id": 24,
+      "first_name": "Tanhya",
+      "last_name": "Baus",
+      "email": "tbausn@sfgate.com",
+      "gender": "Female",
+      "ip_address": "205.237.65.52"
+    },
+    {
+      "id": 25,
+      "first_name": "Ambur",
+      "last_name": "Bentsen",
+      "email": "abentseno@g.co",
+      "gender": "Female",
+      "ip_address": "227.225.46.241"
+    },
+    {
+      "id": 26,
+      "first_name": "Quinn",
+      "last_name": "Shadbolt",
+      "email": "qshadboltp@wikia.com",
+      "gender": "Female",
+      "ip_address": "92.51.131.255"
+    },
+    {
+      "id": 27,
+      "first_name": "Rochester",
+      "last_name": "Stefi",
+      "email": "rstefiq@msn.com",
+      "gender": "Male",
+      "ip_address": "149.103.66.182"
+    },
+    {
+      "id": 28,
+      "first_name": "Devora",
+      "last_name": "Ashe",
+      "email": "dasher@tripadvisor.com",
+      "gender": "Female",
+      "ip_address": "250.115.125.70"
+    },
+    {
+      "id": 29,
+      "first_name": "Davon",
+      "last_name": "Jeacocke",
+      "email": "djeacockes@privacy.gov.au",
+      "gender": "Male",
+      "ip_address": "119.32.72.217"
+    },
+    {
+      "id": 30,
+      "first_name": "Billie",
+      "last_name": "Rollinshaw",
+      "email": "brollinshawt@cloudflare.com",
+      "gender": "Female",
+      "ip_address": "116.116.253.139"
+    },
+    {
+      "id": 31,
+      "first_name": "Osbert",
+      "last_name": "Saddleton",
+      "email": "osaddletonu@sohu.com",
+      "gender": "Male",
+      "ip_address": "127.180.76.125"
+    },
+    {
+      "id": 32,
+      "first_name": "Janina",
+      "last_name": "Mellenby",
+      "email": "jmellenbyv@google.com.au",
+      "gender": "Female",
+      "ip_address": "158.163.210.174"
+    },
+    {
+      "id": 33,
+      "first_name": "Caz",
+      "last_name": "Giottoi",
+      "email": "cgiottoiw@loc.gov",
+      "gender": "Male",
+      "ip_address": "212.177.124.120"
+    },
+    {
+      "id": 34,
+      "first_name": "Marcelia",
+      "last_name": "McConachie",
+      "email": "mmcconachiex@patch.com",
+      "gender": "Female",
+      "ip_address": "43.83.186.61"
+    },
+    {
+      "id": 35,
+      "first_name": "Ulrick",
+      "last_name": "Catmull",
+      "email": "ucatmully@list-manage.com",
+      "gender": "Male",
+      "ip_address": "131.210.77.101"
+    }
+  ],
+  "favorites": [
+    {
+      "id": 1,
+      "first_name": "Leslie",
+      "last_name": "Warlaw",
+      "email": "lwarlaw0@google.es",
+      "gender": "Non-binary",
+      "ip_address": "162.221.191.9"
+    },
+    {
+      "id": 5,
+      "first_name": "Adelbert",
+      "last_name": "Jump",
+      "email": "ajump4@linkedin.com",
+      "gender": "Male",
+      "ip_address": "254.8.193.166"
+    },
+    {
+      "id": 2,
+      "first_name": "Cornelia",
+      "last_name": "Emmines",
+      "email": "cemmines1@java.com",
+      "gender": "Female",
+      "ip_address": "248.42.65.153"
+    },
+    {
+      "id": 3,
+      "first_name": "Will",
+      "last_name": "Huntriss",
+      "email": "whuntriss2@etsy.com",
+      "gender": "Male",
+      "ip_address": "238.0.7.175"
+    },
+    {
+      "id": 8,
+      "first_name": "Hilarius",
+      "last_name": "Wyldes",
+      "email": "hwyldes7@ehow.com",
+      "gender": "Male",
+      "ip_address": "83.194.42.212"
+    },
+    {
+      "id": 29,
+      "first_name": "Davon",
+      "last_name": "Jeacocke",
+      "email": "djeacockes@privacy.gov.au",
+      "gender": "Male",
+      "ip_address": "119.32.72.217"
+    },
+    {
+      "id": 28,
+      "first_name": "Devora",
+      "last_name": "Ashe",
+      "email": "dasher@tripadvisor.com",
+      "gender": "Female",
+      "ip_address": "250.115.125.70"
+    },
+    {
+      "id": 33,
+      "first_name": "Caz",
+      "last_name": "Giottoi",
+      "email": "cgiottoiw@loc.gov",
+      "gender": "Male",
+      "ip_address": "212.177.124.120"
+    }
+  ],
+  "third": []
+}
