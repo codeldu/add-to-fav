@@ -7,26 +7,46 @@ const getAllData = () => {
 
     fetch('http://localhost:3000/all')
         .then(res => {
-           
-            return res.json()})
+
+            return res.json()
+        })
         .then(data => {
-            data.forEach(dt => {
-                table.innerHTML += `
-            <tr>
-            <td>${dt.first_name}</td>
+
+            fetch('http://localhost:3000/favorites')
+                .then(res => res.json())
+                .then(favs => {
+
+
+                    data.forEach(dt => {
+
+
+                        if (favs.find(f => f.id === dt.id)) {
+                            table.innerHTML += `
+                        <tr>
+         <td>${dt.first_name}</td>
+         <td>${dt.last_name}</td>
+            <td>${dt.email}</td>
+            <td><button onclick='rmvToFav(${dt.id})' >Remove from favs</button></td>
+          </tr>
+                        `
+                        } else {
+                            table.innerHTML += `
+                        <tr>
+             <td>${dt.first_name}</td>
             <td>${dt.last_name}</td>
             <td>${dt.email}</td>
             <td><button onclick='addToFav(${dt.id})'>Add to Favorite</button></td>
-          </tr>
-            `
-            });
-            return fetch('http://localhost:3000/favorites/')
+           </tr>
+                        `
+                        }
+                    });
+                    count.textContent = "( " + favs.length + " )"
+                })
+
+
+
         })
-        .then(res =>{ 
-           ;
-            return res.json()})
-        .then(data => count.textContent = "( "+  data.length + " )")
-        .catch(err=> console.log(err))
+        .catch(err => console.log(err))
 
 }
 
@@ -34,11 +54,11 @@ const getAllData = () => {
 const addToFav = (id) => {
 
     fetch('http://localhost:3000/all/' + id)
-        .then(res => 
+        .then(res =>
             res.json())
         .then(data => {
 
-        return fetch('http://localhost:3000/favorites', {
+            return fetch('http://localhost:3000/favorites', {
                 method: "POST",
                 headers: {
                     "Content-Type": "application/json",
@@ -47,13 +67,26 @@ const addToFav = (id) => {
             })
 
         })
-        .then(res=>{
+        .then(res => {
             if (res.status == 500) {
-                throw new Error ('Mehsul elave olunub')
+                throw new Error('Mehsul elave olunub')
             }
-            return res.json()})
+            return res.json()
+        })
         .then(data => console.log(data))
-        .catch(err=> alert(err.message))
+        .catch(err => alert(err.message))
 }
+
+const rmvToFav = (id) => {
+
+    fetch('http://localhost:3000/favorites/' + id, {
+        method: "DELETE",
+        headers: {
+            "Content-Type": "application/json",
+        }
+    }).then(res => res.json()).then(data => console.log(data))
+
+}
+
 
 getAllData();
